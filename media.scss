@@ -1,0 +1,66 @@
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 335px;
+    }
+
+    header {
+        nav {
+            .container {
+                
+                .navbar-left {
+                    img {
+                        width: 138px;
+                        height: 30px;
+                    }
+
+                    #ullar {
+                        width: 0px;
+                        position: absolute;
+                        top: 103px;
+                        right: 16px;
+                        background-color: #172755;
+                        transition: 1s;
+                        box-shadow: 0px 28px 30px -15px rgb(103, 112, 133);
+                        ul{
+                            gap: 20px;
+                            
+                            
+                        }
+                    }
+
+
+
+                }
+                .navbar-right{
+                    label{
+                        display: block;
+                    }
+                    .sign-up{
+                        display: none;
+                        position: absolute;
+                        top: 312px;
+                        right: 125px;
+                    }
+                }
+                input:checked+.navbar-left{
+                    #ullar{
+                        width: 100px;
+                        border-radius: 5px;
+                        padding: 10px;
+                     
+                    }
+                }
+                input:checked+.navbar-left+.navbar-right{
+                    .sign-up{
+                        display: block;
+                        
+                    }
+                }
+            }
+
+        }
+    }
+
+
+
+}

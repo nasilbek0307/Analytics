@@ -1,0 +1,38 @@
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 335px;
+  }
+  header nav .container .navbar-left img {
+    width: 138px;
+    height: 30px;
+  }
+  header nav .container .navbar-left #ullar {
+    width: 0px;
+    position: absolute;
+    top: 103px;
+    right: 16px;
+    background-color: #172755;
+    transition: 1s;
+    box-shadow: 0px 28px 30px -15px rgb(103, 112, 133);
+  }
+  header nav .container .navbar-left #ullar ul {
+    gap: 20px;
+  }
+  header nav .container .navbar-right label {
+    display: block;
+  }
+  header nav .container .navbar-right .sign-up {
+    display: none;
+    position: absolute;
+    top: 312px;
+    right: 125px;
+  }
+  header nav .container input:checked + .navbar-left #ullar {
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  header nav .container input:checked + .navbar-left + .navbar-right .sign-up {
+    display: block;
+  }
+}/*# sourceMappingURL=media.css.map */

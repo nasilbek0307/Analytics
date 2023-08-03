@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+}
+
+a {
+    all: unset;
+}
+
+header {
+    padding-top: 50px;
+    background: url("./images/Subtract.svg"),
+        url("./images/Subtract1.svg"),
+        linear-gradient(-184deg, #172755 0 80%, #EF2A82 80% 81%, transparent 81% 100%);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+
+    nav {
+        .container {
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            input {
+                display: none;
+            }
+
+            .navbar-left {
+                display: flex;
+                gap: 82px;
+                align-items: center;
+                flex-wrap: wrap;
+
+                #ullar {
+                    display: flex;
+                    overflow: hidden;
+
+                    ul {
+                        display: flex;
+                        gap: 36px;
+                        flex-wrap: wrap;
+
+                        li {
+
+                            list-style: none;
+
+                            a {
+                                color: var(--text-secondary, #8794BA);
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .navbar-right {
+                gap: 40px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                flex-wrap: wrap;
+
+
+
+                label {
+                    display: none;
+                }
+
+                a {
+                    color: var(--text-secondary, #8794BA);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    list-style: none;
+
+                }
+
+                .sign-up {
+                    padding: 10px 53px;
+                    text-align: center;
+                    border-radius: 68px;
+                    border: 1px solid #465B95;
+                }
+            }
+        }
+    }
+}
+
+section {
+    .container{
+        gap: 81px;
+        .text{
+            max-width: 550px;
+            padding-top: 163px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            .sec1-tex {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                h1 {
+                    width: 550px;
+                    color: #FFF;
+        
+                    /* text / H1 */
+        
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 120%;
+                    /* 60px */
+                }
+        
+                p {
+                    width: 550px;
+                    color: var(--text-secondary, #8794BA);
+        
+                    /* text / body */
+                    font-family: 'Roboto';
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 150%;
+                    /* 27px */
+                }
+            }
+            a{
+                width: 78px;
+                padding: 16px 80px;
+                border-radius: 68px;
+                background: #EF2A82;
+                color: #FFF;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+        .pic{
+            position: absolute;
+            right: 0;
+            img:nth-child(1){
+                position: absolute;
+                top: 123px;
+                right: 341px;
+            }
+        }
+    }
+}

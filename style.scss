@@ -302,7 +302,7 @@ main {
 }
 
 footer {
-    
+
     padding-top: 50px;
     background: url(./images/Subtract\ \(2\).svg), linear-gradient(-3deg, #172755 75%, #EF2A82 75% 76.5%, transparent 76.5% 100%);
     background-position: bottom right;
@@ -321,7 +321,7 @@ footer {
                 gap: 30px;
 
                 h2 {
-                    padding-top:430px;
+                    padding-top: 430px;
                     color: var(--text-main, white);
                     text-align: center;
                     font-size: 40px;
@@ -343,8 +343,9 @@ footer {
 
             .card-box {
                 display: flex;
-                
+
                 gap: 80px;
+
                 .card {
                     max-width: 340px;
                     display: flex;
@@ -443,98 +444,101 @@ footer {
                         line-height: normal;
                     }
                 }
-                .box2{
-                    
-                        max-width: 340px;
-                        display: flex;
-                        flex-direction: column;
-                        gap: 28px;
-                        border-radius: 30px;
-                        padding: 50px;
-                        background: #FFF;
-    
-                        /* card / shadow */
-                        box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.20);
-                        .top{
-                            h3{
+
+                .card:hover {
+                    background-color: #fff;
+                    /* card / shadow */
+                    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.20);
+                    .top {
+                        h3 {
+                            color: #172755;
+                        }
+                    }
+
+                    .bottom {
+                        h2 {
+                            color: #172755;
+
+                            b {
                                 color: #172755;
                             }
                         }
-                        .bottom{
-                            h2{
-                                color: #172755;
-                                b{
-                                    color: #172755;
-                                }
-                            }
-                        }
-                        a {
+                    }
+
+                    a {
 
 
-                            padding: 15px 80px;
-    
-                            border-radius: 68px;
-                            border: 1px solid #EF2A82;
-                            background-color: #EF2A82;
-                            color: #FFF;
-                            text-align: center;
-                            font-size: 16px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: normal;
-                        }
+                        padding: 15px 80px;
+
+                        border-radius: 68px;
+                        border: 1px solid #EF2A82;
+                        background-color: #EF2A82;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+
                 }
             }
-            .Line{
+
+            .Line {
                 max-width: 1180px;
                 height: 1px;
                 flex-shrink: 0;
                 justify-content: center;
                 background: #2A407C;
             }
-            .foot-bar{
+
+            .foot-bar {
                 gap: 308.5px;
                 display: flex;
-                
+
                 padding-bottom: 103px;
-                
+
                 justify-content: space-between;
-                .navbar-left{
+
+                .navbar-left {
                     display: flex;
                     align-items: center;
                     gap: 305.48px;
-                    #ullar{
+
+                    #ullar {
                         display: flex;
                         flex-direction: column;
-                        
-                        ul{
+
+                        ul {
                             display: flex;
                             gap: 36px;
-                            
-                            li{
+
+                            li {
                                 display: flex;
-                                
-                                a{
+
+                                a {
                                     all: unset;
                                     text-align: center;
-                                    color: var(--text-secondary, #8794BA);
+                                    color: var(--text-secondary, #7f8aac);
 
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: normal;
                                 }
                             }
                         }
-                       
+
                     }
                 }
-                .navbar-right{
+
+                .navbar-right {
                     display: flex;
-                    
-                    gap:40px;
+
+                    gap: 40px;
                     align-items: center;
-                    img{
+
+                    img {
                         display: flex;
                     }
                 }

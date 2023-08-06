@@ -48,8 +48,15 @@
                     .sign-up {
                         display: none;
                         position: absolute;
-                        top: 312px;
-                        right: 125px;
+                        top: 260px;
+                        right: 15px;
+                        padding: 5px 24.5px
+                        
+                    }
+                    .sign-up:hover{
+                        background: #EF2A82;
+                        color: #12214D;
+                        ;
                     }
                 }
 
@@ -231,7 +238,7 @@
                 }
     
                 .card-box{
-                    overflow-x: scroll and hidden;
+                    overflow-x: scroll;
                     
                     gap: 20px;
                     .card{
@@ -267,38 +274,41 @@
                                 font-size: 13px;
                                 
                             }
+                            
                         }
                         a {
-                            border: 1px solid #EF2A82;
-                            display: inline-flex;
-                            height: 50px;
-                            padding: 10px 83px;
-                            justify-content: center;
-                            align-items: center;
-                            gap: 10px;
-                            flex-shrink: 0;
-                            
-                            background: #EF2A82;
-                        }
+                                
+                            color: #060F28;
+                         }
+                       
+                    }
+                    .card:hover{
+                        a {
+
+                            padding: 15px 80px;
                     }
                 }
                 .Line{
                     max-width: 335px;
                     
                 }
-                .foot-bar{
-                    gap: 61px;
-                    justify-content: center;
-                    .navbar-left{
-                       
-                       #ullar{
-                            display: none;
-                        }
+                
+            }
+            .foot-bar{
+                gap: 40px;
+                justify-content: center;
+                padding-bottom: 50px;
+                .navbar-left{
+                   #ullar{
+                        display: none;
+                        
+                  
                     }
-                    
                 }
+                
             }
     
         }
     }
+}
 }

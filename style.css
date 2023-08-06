@@ -364,27 +364,21 @@ footer section .container .card-box .card a {
   font-weight: 400;
   line-height: normal;
 }
-footer section .container .card-box .box2 {
-  max-width: 340px;
-  display: flex;
-  flex-direction: column;
-  gap: 28px;
-  border-radius: 30px;
-  padding: 50px;
-  background: #FFF;
+footer section .container .card-box .card:hover {
+  background-color: #fff;
   /* card / shadow */
   box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
 }
-footer section .container .card-box .box2 .top h3 {
+footer section .container .card-box .card:hover .top h3 {
   color: #172755;
 }
-footer section .container .card-box .box2 .bottom h2 {
+footer section .container .card-box .card:hover .bottom h2 {
   color: #172755;
 }
-footer section .container .card-box .box2 .bottom h2 b {
+footer section .container .card-box .card:hover .bottom h2 b {
   color: #172755;
 }
-footer section .container .card-box .box2 a {
+footer section .container .card-box .card:hover a {
   padding: 15px 80px;
   border-radius: 68px;
   border: 1px solid #EF2A82;
@@ -428,7 +422,7 @@ footer section .container .foot-bar .navbar-left #ullar ul li {
 footer section .container .foot-bar .navbar-left #ullar ul li a {
   all: unset;
   text-align: center;
-  color: var(--text-secondary, #8794BA);
+  color: var(--text-secondary, #7f8aac);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;

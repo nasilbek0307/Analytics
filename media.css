@@ -33,8 +33,13 @@
   header nav .container .navbar-right .sign-up {
     display: none;
     position: absolute;
-    top: 312px;
-    right: 125px;
+    top: 260px;
+    right: 15px;
+    padding: 5px 24.5px;
+  }
+  header nav .container .navbar-right .sign-up:hover {
+    background: #EF2A82;
+    color: #12214D;
   }
   header nav .container input:checked + .navbar-left #ullar {
     width: 100px;
@@ -164,7 +169,7 @@
     text-align: start;
   }
   footer section .container .card-box {
-    overflow-x: hidden;
+    overflow-x: scroll;
     gap: 20px;
   }
   footer section .container .card-box .card {
@@ -195,22 +200,18 @@
     font-size: 13px;
   }
   footer section .container .card-box .card a {
-    border: 1px solid #EF2A82;
-    display: inline-flex;
-    height: 50px;
-    padding: 10px 83px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    background: #EF2A82;
+    color: #060F28;
   }
-  footer section .container .Line {
+  footer section .container .card-box .card:hover a {
+    padding: 15px 80px;
+  }
+  footer section .container .card-box .Line {
     max-width: 335px;
   }
   footer section .container .foot-bar {
-    gap: 61px;
+    gap: 40px;
     justify-content: center;
+    padding-bottom: 50px;
   }
   footer section .container .foot-bar .navbar-left #ullar {
     display: none;
